@@ -1,0 +1,114 @@
+
+/** GLOBAL TAGS **/
+
+
+html {
+
+    font-family: 'Poppins', sans-serif;
+    color: #404A67;
+
+}
+
+
+/** LAYOUT **/
+
+
+/** main layout **/
+#main-wrapper {
+
+    display: grid;
+    grid-gap: 0px;
+    grid-template-areas: "header";
+
+    width: 800px;
+    margin-left: calc(50% - 400px);
+
+}
+
+/** header **/
+#header {
+
+    text-align: left;
+    margin-top: 50px;
+
+}
+.header-tab {
+
+    margin-left: 25px;
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 13px;
+
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.31px;
+    line-height: 50px;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+} .header-tab:hover {
+
+    border-bottom: 2px solid #D5D7DD;
+
+}
+.active {
+
+    border-bottom: 2px solid #404A67;
+
+}
+#header-logo {
+
+    width: 50px;
+    height: 49px;
+    margin-right: 25px;
+    float: left;
+
+}
+#apply-button {
+
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 5px;
+    float: right;
+
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.31px;
+    color: #FFFFFF;
+    line-height: 40px;
+
+    background-color: #DD7096;
+    border-radius: 4px;
+
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(218, 89, 125, 0.35);
+    -moz-box-shadow:    0px 5px 5px 0px rgba(218, 89, 125, 0.35);
+    box-shadow:         0px 5px 5px 0px rgba(218, 89, 125, 0.35);
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+} #apply-button:hover {
+
+    margin-top: 3px;
+    margin-bottom: 7px;
+
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(218, 89, 125, 0.25), 0px 10px 10px 0px rgba(218, 89, 125, 0.25);
+    -moz-box-shadow:    0px 5px 5px 0px rgba(218, 89, 125, 0.25), 0px 10px 10px 0px rgba(218, 89, 125, 0.25);
+    box-shadow:         0px 5px 5px 0px rgba(218, 89, 125, 0.25), 0px 10px 10px 0px rgba(218, 89, 125, 0.25);
+
+} #apply-button:active {
+
+    margin-top: 9px;
+    margin-bottom: 1px;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow:         none;
+
+}
