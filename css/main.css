@@ -136,23 +136,28 @@ html {
 #o-bracket-wrapper {
 
     grid-area: o-bracket;
-    padding-top: 15px;
+    padding-top: 23px;
 
 }
 #title-wrapper {
 
     grid-area: title;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
 
 }
 #subtitle-wrapper {
 
     grid-area: subtitle;
+    padding-top: 0px;
+    padding-bottom: 25px;
 
 }
 #c-bracket-wrapper {
 
     grid-area: c-bracket;
-    padding-top: 15px;
+    padding-top: 23px;
 
 }
 #title {
