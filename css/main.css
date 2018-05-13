@@ -25,6 +25,7 @@ html {
 
 }
 
+
 /** header **/
 #header {
 
@@ -110,5 +111,71 @@ html {
     -webkit-box-shadow: none;
     -moz-box-shadow:    none;
     box-shadow:         none;
+
+}
+
+
+/** splash **/
+#splash {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    display: grid;
+    grid-gap: 25px;
+    grid-template-areas: "logo o-bracket title    c-bracket"
+                         "logo o-bracket subtitle c-bracket";
+
+}
+#logo-wrapper {
+
+    grid-area: logo;
+    padding-right: 47px;
+
+}
+#o-bracket-wrapper {
+
+    grid-area: o-bracket;
+    padding-top: 15px;
+
+}
+#title-wrapper {
+
+    grid-area: title;
+
+}
+#subtitle-wrapper {
+
+    grid-area: subtitle;
+
+}
+#c-bracket-wrapper {
+
+    grid-area: c-bracket;
+    padding-top: 15px;
+
+}
+#title {
+
+    font-size: 48px;
+    font-weight: 900;
+
+    letter-spacing: 2px;
+    line-height: 55px;
+
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+
+}
+#subtitle {
+
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+
+    color: #818797;
 
 }
