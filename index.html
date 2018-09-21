@@ -1,46 +1,104 @@
-<!DOCTYPE HTML>
-
-<html>
-
-<head>
-    <title>Computer Science House</title>
-    <link rel="stylesheet" text="html/css" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,500i,600,700,900" rel="stylesheet">
-</head>
-
-<body>
-    <div id="main-wrapper">
-        <div id="header">
-            <img src="assets/csh-logo.svg" id="header-logo">
-            <a href="" class="header-tab active">HOME</a>
-            <a href="" class="header-tab">PROJECTS</a>
-            <a href="" class="header-tab">TRADITIONS</a>
-            <a href="" class="header-tab">INSIGHTS</a>
-            <a href="" class="header-tab">CONTACT</a>
-            <a href="" id="apply-button">APPLY</a>
-        </div>
-        <div id="splash">
-            <div id="logo-wrapper"><img src="assets/splash-logo.svg" id="splash-logo"></div>
-            <div id="o-bracket-wrapper"><img src="assets/o-bracket.svg" id="o-bracket"></div>
-            <div id="title-wrapper">
-                <h1 id="title">COMPUTER</h1>
-                <h1 id="title">SCIENCE HOUSE</h1>
-            </div>
-            <div id="subtitle-wrapper"><h2 id="subtitle">getting more done after 2:00 am than most people do all day</h2></div>
-            <div id="c-bracket-wrapper"><img src="assets/c-bracket.svg" id="c-bracket"></div>
-        </div>
+---
+layout: default
+---
+<nav class="col navbar navbar-expand-lg navbar-dark">
+    <a href="/" class="navbar-brand">&nbsp;</a>
+    <button type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+    <div id="navigation" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="active">Home</a></li>
+            <li class="nav-item"><a href="#">Projects</a></li>
+            <li class="nav-item"><a href="#">Traditions</a></li>
+            <li class="nav-item"><a href="#">Insights</a></li>
+            <li class="nav-item"><a href="#">Contact</a></li>
+        </ul>
     </div>
-    <div id="background-wrapper">
-        <div id="lower-wrapper">
-            <div id="about">
-                <h3 id="about-header">ABOUT CSH</h3>
-                <p id="about-text">
-                    Since 1976, Computer Science House has provided a revolutionary living and learning environment for its members. With unique facilities, emphasis on hands-on learning, and a strong social atmosphere, CSH helps its members grow as professionals and individuals.
-                </p>
-                <div id="about-image"></div>
+</nav>
+
+<div id="slider">
+    <div>
+        <img src="/assets/welcome_back_large.jpeg" />
+    </div>
+    <div>
+        <img src="/assets/server_room.jpeg" />
+    </div>
+    <div>
+        <img src="/assets/rock.jpeg" />
+    </div>
+</div>
+
+<div class="gray-wrapper">
+    <div class="container spaced" id="about">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <p>Since 1976, Computer Science House has provided a revolutionary living and learning environment for its members. With unique facilities, emphasis on hands-on learning, and a strong social atmosphere, CSH helps its members grow as professionals and more.</p>
+                <a class="btn btn-primary" href="#">More about CSH</a>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="/assets/about_image.jpeg">
             </div>
         </div>
     </div>
-<body>
+</div>
 
-</html>
+<div class="container spaced" id="projects">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="header">Things we've done</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-4">
+            <p>Personal projects are a big part of CSH culture. Some of our biggest include Schedule Maker, CSH Arcade, Drink, and Harold.</p>
+            <a class="btn btn-primary" href="#">More projects</a>
+        </div>
+        <div class="col-12 col-md-8 images">
+            <div class="row">
+                <div class="col-3">
+                    <img src="/assets/schedulemaker.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="/assets/arcade.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="/assets/drink.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="/assets/harold.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gray-wrapper">
+    <div class="container spaced" id="sponsors">
+        <div class="row">
+            <div class="col-12">
+                <a href="#">
+                    <h2 class="header">Sponsors</h2>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                    <img src="http://placehold.it/269">
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                <img src="http://placehold.it/269">
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                <img src="http://placehold.it/269">
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                <img src="http://placehold.it/269">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

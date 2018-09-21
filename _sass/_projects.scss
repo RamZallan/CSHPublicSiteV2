@@ -1,0 +1,11 @@
+#projects {
+    img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 2px 15px darken($gray, 20%);
+    }
+    p,
+    a {
+        font-size: 0.8em;
+    }
+}

@@ -1,0 +1,19 @@
+.gray-wrapper {
+    padding-top: 10px;
+    background: $gray;
+}
+
+#about {
+    p {
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+    img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 2px 15px darken($gray, 20%);
+    }
+    a.btn {
+        font-size: 0.75em;
+    }
+}
