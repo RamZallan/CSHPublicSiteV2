@@ -1,19 +1,19 @@
 // override csh-material-bootstrap
 .navbar {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 2;
     box-shadow: none;
     width: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 nav {
     & .navbar-brand {
         padding-top: 15px;
         padding-bottom: 15px;
-        background: url('/assets/csh-logo.svg') 0/2.5rem no-repeat;
+        background: url('/assets/images/csh-logo.svg') 0/2.5rem no-repeat;
     }
     & img {
         display: inline;
@@ -47,4 +47,19 @@ nav {
             }
         }
     }
+    & .dropdown-menu {
+        min-width: 0px; // override csh bootstrap
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.6);
+        & li {
+            display: block;
+        }
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+.btn.dropdown-toggle:before {
+    display: none; // remove beginning caret for dropdowns
 }

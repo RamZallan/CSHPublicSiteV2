@@ -1,0 +1,21 @@
+.eboard-photo-container {
+    min-height: 200px;
+    & img {
+        position: absolute;
+        transition: 0.3s opacity ease-in-out;
+        &.real:hover {
+            opacity: 0;
+        }
+    }
+}
+
+.eboard-photo-container {
+
+     & img {
+         position: absolute;
+         transition: 0.3s opacity ease-in-out;
+         &.real:hover {
+              opacity: 0;
+          }
+     }
+ }
