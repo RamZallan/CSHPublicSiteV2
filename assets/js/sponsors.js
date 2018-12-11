@@ -1,6 +1,5 @@
 $(document).ready(() => {
     if ($('#homepage-sponsors').length) {
-        console.log("AAAA");
         const sponsors = [
             ['/assets/images/sponsors/ritLarge.png', 'http://rit.edu', 'Rochester Instiute of Technology'],
             ['/assets/images/sponsors/symantec.png', 'http://symantec.com', 'Symantec'],

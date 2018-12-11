@@ -1,7 +1,6 @@
 $(document).ready(() => {
     if ($('#eboard').length) {
         $('.eboard-photo').hover(function() {
-            console.log("AAAA");
             $(this).fadeOut().attr('src', function(index, attr) {
                 return attr.replace('.jpg', '_joke.jpg');
             }).fadeIn();
