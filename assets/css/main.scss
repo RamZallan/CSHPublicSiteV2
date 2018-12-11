@@ -15,7 +15,12 @@ body {
 
 .gray-wrapper {
     padding-top: 10px;
+    padding-bottom: 10px;
     background: $gray;
+    &.padded {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 img.rounded {
