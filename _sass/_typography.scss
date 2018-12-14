@@ -1,22 +1,10 @@
 html {
-  font-size: 1rem;
-}
-
-@media (min-width: 576px) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 1.4rem;
-  }
+  font-size: calc(1em + 2vmax);
 }
 
 @media(min-width: 992px) {
   html {
-    font-size: 1.6rem;
+    font-size: calc(1em + 1vmin);
   }
 }
 
@@ -25,7 +13,8 @@ body {
     color: $blue;
 }
 
-h2.header {
+h2 {
+    margin-top: 1em;
     font-size: 1.5em;
 }
 
@@ -37,7 +26,7 @@ h3 {
     color: #333;
     line-height: 1.5;
     font-size: 0.8em;
-    margin: 20px 0;
+    margin: 1em 0;
 }
 
 .row.spaced {

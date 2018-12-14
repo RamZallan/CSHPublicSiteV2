@@ -1,5 +1,6 @@
 footer {
     font-size: 0.75em;
+    text-align: center;
     background: $csh-pink;
     color: white;
     padding: 20px 0;
@@ -11,6 +12,9 @@ footer {
         color: white;
         &:hover {
             color: white;
+        }
+        @media(max-width: 992px) {
+            text-decoration: underline; // underline links on smaller screens
         }
     }
 }
